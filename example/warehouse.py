@@ -2,8 +2,7 @@ from __future__ import division, print_function
 
 import gurobipy as GRBPY
 
-print("dzh")
-print('dzh')
+
 # awkward restriction for 'callback'
 def cbwarehouse(model, where):
     if where == GRBPY.GRB.Callback.MIPSOL:
